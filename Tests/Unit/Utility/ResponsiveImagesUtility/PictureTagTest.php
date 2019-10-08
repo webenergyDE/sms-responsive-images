@@ -2,10 +2,10 @@
 
 namespace SMS\SmsResponsiveImages\Tests\Unit\Utility\ResponsiveImagesUtility;
 
-use TYPO3\CMS\Fluid\Core\ViewHelper\TagBuilder;
 use TYPO3\CMS\Core\Imaging\ImageManipulation\Area;
-use TYPO3\CMS\Core\Imaging\ImageManipulation\CropVariantCollection;
 use TYPO3\CMS\Core\Imaging\ImageManipulation\CropVariant;
+use TYPO3\CMS\Core\Imaging\ImageManipulation\CropVariantCollection;
+use TYPO3Fluid\Fluid\Core\ViewHelper\TagBuilder;
 
 class PictureTagTest extends AbstractResponsiveImagesUtilityTest
 {
